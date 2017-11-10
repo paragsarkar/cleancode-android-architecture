@@ -33,7 +33,7 @@ public class RequestManager {
     @Nullable
     public static RequestManager getInstance() {
         if (mRequestManager == null) {
-            Log.wtf(TAG, "RequestManager.init() method should be called before getting the instance. " +
+            Log.e(TAG, "RequestManager.init() method should be called before getting the instance. " +
                     "The best place to make this call is in Application class.");
             throw new IllegalStateException("Not Initialized");
         }

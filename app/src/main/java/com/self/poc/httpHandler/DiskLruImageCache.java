@@ -72,7 +72,7 @@ class DiskLruImageCache implements ImageLoader.ImageCache {
                 }
             };
         } catch (IOException e) {
-            Log.wtf("DLRUImageCache", e.getLocalizedMessage());
+            Log.e("DLRUImageCache", e.getLocalizedMessage());
         }
     }
 

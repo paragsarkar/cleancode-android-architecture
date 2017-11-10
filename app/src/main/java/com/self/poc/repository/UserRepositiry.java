@@ -2,10 +2,8 @@ package com.self.poc.repository;
 
 import android.arch.lifecycle.LiveData;
 import android.content.Context;
-import android.os.AsyncTask;
 
 import com.self.poc.apiClientLevel.UserWebApi;
-import com.self.poc.model.provabdata.ProvabDataApi;
 import com.self.poc.model.userdata.UserDataApi;
 
 /**

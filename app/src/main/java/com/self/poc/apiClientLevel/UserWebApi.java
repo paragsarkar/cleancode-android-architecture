@@ -3,14 +3,11 @@ package com.self.poc.apiClientLevel;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.content.Context;
-import android.nfc.Tag;
 
 import com.self.poc.httpHandler.HttpHandler;
 import com.self.poc.httpHandler.None;
-import com.self.poc.model.provabdata.ProvabDataApi;
 import com.self.poc.model.userdata.UserDataApi;
 
-import java.util.List;
 import java.util.Map;
 
 /**
@@ -49,7 +46,6 @@ public class UserWebApi {
 
             @Override
             public void onResponse(UserDataApi result, Map<String, String> headers) {
-              //    setUserDataApi(result);
                 userDataApiMutableLiveData.postValue(result);
             }
 

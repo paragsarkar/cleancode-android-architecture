@@ -1,6 +1,5 @@
 package com.self.poc.viewModel;
 
-import android.app.Application;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
@@ -8,11 +7,8 @@ import android.arch.lifecycle.ViewModelProvider;
 import android.content.Context;
 import android.support.annotation.NonNull;
 
-import com.self.poc.model.provabdata.ProvabDataApi;
 import com.self.poc.model.userdata.UserDataApi;
 import com.self.poc.repository.UserRepositiry;
-
-import java.util.List;
 
 /**
  * Created by paragsarkar on 28/10/17.

@@ -3,15 +3,11 @@ package com.self.poc.presentor;
 
 import android.arch.lifecycle.LifecycleActivity;
 import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProvider;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.util.Log;
 
 import com.self.poc.callback.UserPresentortoViewCallback;
-import com.self.poc.model.provabdata.ProvabDataApi;
 import com.self.poc.model.userdata.UserDataApi;
 import com.self.poc.viewModel.UserLiveViewModel;
 

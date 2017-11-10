@@ -1,7 +1,5 @@
 package com.self.poc.model;
 
-import javax.xml.transform.Result;
-
 /**
  * Created by paragsarkar on 28/10/17.
  */
